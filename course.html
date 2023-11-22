@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,600;0,700;1,200&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+<link rel="stylesheet" href="./project1.css">
+ 
+    
+    <title>university website </title>
+</head> 
+<body>
+    
+    <section class="sub-header">
+<nav>
+
+    <a href="index.html"><img src="./images/logo.png"></a>
+<div class="nav-links" id="navLinks">
+    <i class="fa fa-times" onclick="hideMenu()"></i>
+    <ul>
+        <li><a href="project1.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="course.html">COURSE</a></li>
+        <li><a href="blog.html">BLOG</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+    </ul>
+</div>
+<i class="fa fa-bars" onclick="shouMenu()"></i>
+</nav>
+<h1>Our Courses</h1>
+
+    </section>
+
+<!-- -------courses-------- -->
+
+<section class="course">
+    <h1>Courses we offer</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae saepe animi maxime ipsam dolorem necessitatibus incidunt quia quas eligendi quisquam?</p>
+    
+    <div class="row">
+    <div class="couse-col">
+    
+        <h3>Intermediate</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur cum unde nem cupiditate impedit aliquid eos eligendi. Velit, amet, praesentium vitae nesciunt iste odit repellat tempora ullam numquam in accusantium laudantium suscipit accusamus consequatur quibusdam ipsum tempore ipsam neque, molestias repudiandae soluta.</p>
+    </div>
+    <div class="couse-col">
+    
+        <h3>Degree</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur cum unde ratione, reiciendis dolores consequatur.e odit repellat tempora ullam numquam in accusantium laudantium suscipit accusamus consequatur quibusdam ipsum tempore ipsam neque, molestias repudiandae soluta.</p>
+    </div>
+    <div class="couse-col">
+    
+        <h3>Post Graduate</h3>
+        <p>Lorem ipsum dolor, excepturi placeat obcaecati exercitationem cupiditate impedit aliquid eos eligendi. Velit, amet, praesentium vitae nesciunt iste odit repellat tempora ullam numquam in accusantium laudantium suscipit accusamus consequatur quibusdam ipsum tempore ipsam neque, molestias repudiandae soluta.</p>
+    </div>
+    
+    </div>
+    
+    </section>
+
+    
+<!-- ------facilities------ -->
+
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam dolorem odio animi repudiandae quam cupiditate.</p>
+<div class="row">
+<div class="facilities-col">
+    <img src="./images/library.png" >
+    <h3>World Class Library</h3>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus sequi beatae sint, explicabo corporis expedita eos est iste consectetur.</p>
+</div>
+<div class="facilities-col">
+    <img src="./images/basketball.png" >
+    <h3>Largest Playground</h3>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus sequi beatae sint, explicabo corporis expedita eos est iste consectetur.</p>
+</div>
+<div class="facilities-col">
+    <img src="./images/cafeteria.png" >
+    <h3>Tasty And Helthy Food</h3>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus sequi beatae sint, explicabo corporis expedita eos est iste consectetur.</p>
+</div>
+
+</div>
+
+</section>
+
+
+<!-- --------footer-------- -->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus corrupti, doloribus similique quos est dolores <br>accusantium facilis laboriosam totam suscipit tempora eligendi.</p>
+   <!-- <div class="icons">
+       
+    <i class="fa fa-facebook"></i>
+   </div> -->
+
+</section>
+
+
+
+ <!-- <--------javascript for toggle menu-------->  
+        
+
+    <script>
+var navLinks = document.getElementById("navLinks");
+        function shouMenu(){
+            navLinks.style.right = "0"
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
